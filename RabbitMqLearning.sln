@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reciever", "Reciever\Reciever.csproj", "{EDC80D9D-4F23-4D8E-9C3D-1C686E4A91B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotEnv", "DotEnv\DotEnv.csproj", "{93A1CEED-F542-4947-B23B-5F98B5630008}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{EDC80D9D-4F23-4D8E-9C3D-1C686E4A91B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDC80D9D-4F23-4D8E-9C3D-1C686E4A91B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDC80D9D-4F23-4D8E-9C3D-1C686E4A91B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A1CEED-F542-4947-B23B-5F98B5630008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A1CEED-F542-4947-B23B-5F98B5630008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A1CEED-F542-4947-B23B-5F98B5630008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A1CEED-F542-4947-B23B-5F98B5630008}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
