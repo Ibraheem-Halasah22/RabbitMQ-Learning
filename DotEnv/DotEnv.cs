@@ -33,5 +33,10 @@
             var dotenv = Path.Combine(root, ".env");
             return dotenv;
         }
+        public static void LoadDotEnvPathFromTheSolutionDirectory()
+        {
+            var path = GetDotEnvPathInTheSolutionDirectory();
+            Load(path);
+        }
     }
 }
